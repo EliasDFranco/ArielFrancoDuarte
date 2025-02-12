@@ -52,25 +52,33 @@ section {
     overflow: hidden;
 }
 
-#galery img {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+#galery #imágenes {
+    display: flex;
+    flex-direction: row;
     flex-wrap: nowrap;
     overflow-x: auto;
     white-space: nowrap;
-    scroll-snap-type: mandatory;
-    gap: 10px;
+    scroll-snap-type: x mandatory;
+    gap: 15px;
     margin: 0 auto;
     font-size: 1.6em;
     max-width: 300px;
+    -webkit-overflow-scrolling: touch;
 }
 
-#galery #imágenes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-    scroll-snap-align:start ;
+#galery #imágenes img {
+    width: 200px;
+    height: auto;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+
+}
+
+#galery #imágenes img:hoover {
+    transform: scale();
 }
 
 h1 {
