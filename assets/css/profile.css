@@ -94,7 +94,8 @@ h3 {
 }
 
 footer {
-    background-color: black;
+    background-color:  #800020;
     color: whitesmoke;
-    padding: 20px;
+    padding: 15px;
+    text-align: center;
 }
