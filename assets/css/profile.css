@@ -104,6 +104,34 @@ h3 {
     margin: 0;
 }
 
+/* Aqui pongo lo de las redes sociales */
+.redes-social div {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.redes-social i {
+    font-size: 35px;
+    margin-right: 15px;
+}
+
+.redes-social a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.fa-square-instagram {
+    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-envelope {
+    color: blue;
+    font-size: 30px;
+}
+
 footer {
     background-color:  #800020;
     color: whitesmoke;
