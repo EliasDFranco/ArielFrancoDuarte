@@ -8,12 +8,14 @@ body {
     background: radial-gradient(circle, rgb(10 60 202) 0%, #042e52 100%);
 }
 
+
 svg {
     position: absolute;
     width: 100%;
     height: 100%;
     opacity: 0;
 }
+
 .header-img{
     display: flex;
     flex-direction: column;
