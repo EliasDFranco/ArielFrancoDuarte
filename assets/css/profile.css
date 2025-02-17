@@ -34,15 +34,15 @@ body {
 section {
     background-color: whitesmoke;
     backdrop-filter: blur(15px);
-    padding: 30px;
-    margin: 25px auto;
+    padding: 15px;
+    margin: 15px auto;
     max-width: 300px;
     border: 1px solid rgba(255, 16, 16, 0.2);
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow:  0 10px 30px rgba(0, 0, 0, 0.3);
     position: relative;
-    max-width: 400px;
     color: black;
+    align-items: center;
 }
 
 section p {
@@ -140,6 +140,12 @@ h3 {
     font-size: 30px;
 }
 
+.fa-tiktok {
+    background: linear-gradient(45deg, #69C9D0, #EE1D52);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 footer {
     background-color:  #800020;
     color: whitesmoke;
@@ -147,6 +153,7 @@ footer {
     text-align: center;
     position: relative;
     width: 100%;
-    height: auto;
-
+    max-width: 100%;
+    bottom: 0;
+    left: 0;
 }
