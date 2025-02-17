@@ -3,6 +3,8 @@ body, html {
     height: 100%;
     scroll-behavior: smooth; /* Para que el scroll en mòvil sea mejor */
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -147,13 +149,11 @@ h3 {
 }
 
 footer {
-    background-color:  #800020;
+    background: linear-gradient(180deg, #0b1b33, #2e2e30);
     color: whitesmoke;
-    padding: 15px;
+    padding: 15px 0;
     text-align: center;
     position: relative;
-    width: 100%;
-    max-width: 100%;
-    bottom: 0;
-    left: 0;
+    margin-top: 20px;
+    width: 100vw;
 }
